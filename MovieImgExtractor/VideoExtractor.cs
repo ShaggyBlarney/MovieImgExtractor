@@ -3,6 +3,9 @@
  * to get video thumbnails from MOV and mp4 files
  */
 
+using MediaToolkit;
+using MediaToolkit.Model;
+using MediaToolkit.Options;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,7 +16,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using NReco.VideoConverter;
 
 namespace MovieImgExtractor
 {
@@ -52,12 +54,21 @@ namespace MovieImgExtractor
         {
             //get thumbnail from video and save it as a jpg
             string path = FilePath.Text.ToString();
-            var ffMpeg = new NReco.VideoConverter.FFMpegConverter();
-            ffMpeg.GetVideoThumbnail(path, "thumbnails/thumbnail.jpg", 1);
+            MediaFile inputFile = new MediaFile { Filename = path };
+            MediaFile outputFile = new MediaFile { Filename = @"thumbnails/thumbnail.jpg" };
+
+            using (Engine engine = new Engine())
+            {
+                engine.GetMetadata(inputFile);
+
+                // Saves the frame located on the 15th second of the video.
+                ConversionOptions options = new ConversionOptions { Seek = TimeSpan.FromSeconds(1) };
+                engine.GetThumbnail(inputFile, outputFile, options);
+            }
 
             //set the picturebox to the thumbnail image
             Thumbnail_Box.SizeMode = PictureBoxSizeMode.StretchImage;
-            Thumbnail_Box.Image = new Bitmap("thumbnails/thumbnail.jpg");
+            Thumbnail_Box.Image = new Bitmap(@"thumbnails/thumbnail.jpg");
         }
     }
 }
