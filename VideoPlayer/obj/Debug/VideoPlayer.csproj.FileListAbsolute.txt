@@ -1,0 +1,15 @@
+c:\users\kearn\documents\visual studio 2015\Projects\VideoPlayer\VideoPlayer\bin\Debug\VideoPlayer.exe.config
+C:\Users\kearn\Documents\Visual Studio 2015\Projects\VideoPlayer\VideoPlayer\bin\Debug\VideoPlayer.exe
+C:\Users\kearn\Documents\Visual Studio 2015\Projects\VideoPlayer\VideoPlayer\bin\Debug\VideoPlayer.pdb
+C:\Users\kearn\Documents\Visual Studio 2015\Projects\VideoPlayer\VideoPlayer\bin\Debug\Microsoft.DirectX.AudioVideoPlayback.dll
+C:\Users\kearn\Documents\Visual Studio 2015\Projects\VideoPlayer\VideoPlayer\bin\Debug\Microsoft.DirectX.Direct3D.dll
+C:\Users\kearn\Documents\Visual Studio 2015\Projects\VideoPlayer\VideoPlayer\bin\Debug\Microsoft.DirectX.dll
+C:\Users\kearn\Documents\Visual Studio 2015\Projects\VideoPlayer\VideoPlayer\bin\Debug\Microsoft.DirectX.AudioVideoPlayback.xml
+C:\Users\kearn\Documents\Visual Studio 2015\Projects\VideoPlayer\VideoPlayer\bin\Debug\Microsoft.DirectX.Direct3D.xml
+C:\Users\kearn\Documents\Visual Studio 2015\Projects\VideoPlayer\VideoPlayer\bin\Debug\Microsoft.DirectX.xml
+C:\Users\kearn\Documents\Visual Studio 2015\Projects\VideoPlayer\VideoPlayer\obj\Debug\VideoPlayer.csprojResolveAssemblyReference.cache
+C:\Users\kearn\Documents\Visual Studio 2015\Projects\VideoPlayer\VideoPlayer\obj\Debug\VideoPlayer.Form1.resources
+C:\Users\kearn\Documents\Visual Studio 2015\Projects\VideoPlayer\VideoPlayer\obj\Debug\VideoPlayer.Properties.Resources.resources
+C:\Users\kearn\Documents\Visual Studio 2015\Projects\VideoPlayer\VideoPlayer\obj\Debug\VideoPlayer.csproj.GenerateResource.Cache
+C:\Users\kearn\Documents\Visual Studio 2015\Projects\VideoPlayer\VideoPlayer\obj\Debug\VideoPlayer.exe
+C:\Users\kearn\Documents\Visual Studio 2015\Projects\VideoPlayer\VideoPlayer\obj\Debug\VideoPlayer.pdb
